@@ -8,7 +8,7 @@
 
 
 * **プロジェクトの目的:** Gitフローに基づいたチーム開発ワークフローの習得。
-* **公開URL (GitHub Pages):** [ここに公開URLを記載]
+* **公開URL (GitHub Pages):** [https://11kou31.github.io/2025-git.teamA/]
 * **ステータス:** **開発中**
 
 
