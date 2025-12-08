@@ -48,3 +48,19 @@
       font-weight: bold;
       margin-bottom: 0.5rem;
     }
+    /* マップエリアのスタイルをさらに大きく変更 */
+    .map-placeholder {
+      /* サイズを大きく: 200px -> 250px */
+      height: 250px;
+      width: 250px;
+      background-color: #f0f0f0;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #777;
+      padding: 10px;
+    }
