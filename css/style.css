@@ -2,7 +2,7 @@
     /* ヘッダーとフッターのスタイル */
     .custom-header,
     .custom-footer {
-      background-color: var(--custom-blue);
+      background-color: #33E0FE;
       font-weight: bold;
       color: #333;
       padding: 15px 0;
@@ -15,7 +15,6 @@
     }
 
     .custom-footer {
-      margin-top: 30px;
       font-size: 0.9rem;
     }
 
