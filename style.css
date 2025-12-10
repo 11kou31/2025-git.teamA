@@ -1,0 +1,60 @@
+
+    /* ヘッダーとフッターのスタイル */
+    .custom-header,
+    .custom-footer {
+      background-color: var(--custom-blue);
+      font-weight: bold;
+      color: #333;
+      padding: 15px 0;
+      text-align: center;
+    }
+
+    .custom-header {
+      text-align: left;
+      font-size: 1.25rem;
+    }
+
+    .custom-footer {
+      margin-top: 30px;
+      font-size: 0.9rem;
+    }
+
+    /* 画像エリアのスタイル */
+    .image-placeholder {
+      /* 幅を100%にし、左右のパディングを削除 */
+      height: 250px;
+      background-color: #f0f0f0;
+      /* 左右いっぱいに広げるため、角丸と影を削除または調整 */
+      /* border-radius: 10px; */
+      /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #777;
+      font-size: 1.1rem;
+    }
+
+
+
+    /* アクセスタイトル（赤いピンの再現） */
+    .access-title {
+      color: #dc3545;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+    /* マップエリアのスタイルをさらに大きく変更 */
+    .map-placeholder {
+      /* サイズを大きく: 200px -> 250px */
+      height: 250px;
+      width: 250px;
+      background-color: #f0f0f0;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #777;
+      padding: 10px;
+    }
