@@ -1,14 +1,8 @@
-@charset "utf-8";
-/* 画像にある水色を定義 */
-    
-    :root {
-      --custom-blue: #79f8ff;
-    }
 
     /* ヘッダーとフッターのスタイル */
     .custom-header,
     .custom-footer {
-      background-color: var(--custom-blue);
+      background-color: #33E0FE;
       font-weight: bold;
       color: #333;
       padding: 15px 0;
@@ -21,7 +15,6 @@
     }
 
     .custom-footer {
-      margin-top: 30px;
       font-size: 0.9rem;
     }
 
