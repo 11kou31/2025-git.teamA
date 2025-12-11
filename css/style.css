@@ -21,16 +21,24 @@
     /* 画像エリアのスタイル */
     .image-placeholder {
       /* 幅を100%にし、左右のパディングを削除 */
-      height: 250px;
+      max-height: 400px;
       background-color: #f0f0f0;
       /* 左右いっぱいに広げるため、角丸と影を削除または調整 */
-      /* border-radius: 10px; */
-      /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       display: flex;
       align-items: center;
       justify-content: center;
-      color: #777;
+      overflow: hidden;
+      /* color: #777; */
       font-size: 1.1rem;
+    }
+
+    .image-placeholder img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      max-height: 400px;
     }
 
 
@@ -44,16 +52,21 @@
     /* マップエリアのスタイルをさらに大きく変更 */
     .map-placeholder {
       /* サイズを大きく: 200px -> 250px */
-      height: 250px;
-      width: 250px;
-      background-color: #f0f0f0;
+      height: 200px;
+      width: 300px;
+      /* background-color: #f0f0f0; */
       border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
       display: flex;
       align-items: center;
       justify-content: center;
       text-align: center;
       font-size: 0.9rem;
-      color: #777;
-      padding: 10px;
+      /* color: #777;  */
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .map-placeholder iframe {
+      border-radius: 10px;
     }
